@@ -116,6 +116,12 @@ div.menu-links-header .fa, div.menu-links-header button {
     color: #c6c6c6;
 }
 
+// user title staff colour
+
+.moderator .clearfix>.topic-meta-data>.names span.user-title, .moderator .nav-pills>.topic-meta-data>.names span.user-title, .moderator .container>.topic-meta-data>.names span.user-title, .moderator .wrap>.topic-meta-data>.names span.user-title {
+    color: #c6c6c6;
+}
+
 .names .fa {
     color: #c6c6c6;
 }
