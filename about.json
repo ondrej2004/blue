@@ -1,0 +1,27 @@
+{
+  "name": "Blue",
+  "component": false,
+  "license_url": "https://github.com/ondrej2004/Dark-Blue-Theme/blob/main/LICENSE",
+  "about_url": null,
+  "authors": "@Ondrej",
+  "theme_version": "21.0",
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  
+  "color_schemes": {
+    "DarkBlue": {
+      "primary": "FFFFFF",
+      "secondary": "000632",
+      "tertiary": "00B7FF",
+      "quaternary": "FFFFFF",
+      "header_background": "002D61",
+      "header_primary": "C6C6C6",
+      "highlight": "88CCF2",
+      "danger": "E45735",
+      "success": "00FF63",
+      "love": "FF0095"
+    }
+  }
+}
