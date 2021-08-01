@@ -1,0 +1,422 @@
+// BODY
+
+// ICONS
+
+// pin
+
+.topic-list-icons .d-icon-thumbtack, .latest-topic-list .d-icon-thumbtack, .top-topic-list .d-icon-thumbtack, .topic-list .d-icon-thumbtack {
+    color: #c6c6c6;
+}
+
+.topic-list-icons .d-icon-thumbtack.unpinned, .latest-topic-list .d-icon-thumbtack.unpinned, .top-topic-list .d-icon-thumbtack.unpinned, .topic-list .d-icon-thumbtack.unpinned {
+    color: #c6c6c6;
+}
+
+// bookmark
+
+.topic-list-icons .d-icon-bookmark, .latest-topic-list .d-icon-bookmark, .top-topic-list .d-icon-bookmark, .topic-list .d-icon-bookmark {
+    color: #c6c6c6;
+}
+
+// bulk select
+
+.topic-list th button .d-icon {
+    color: #c6c6c6;
+}
+
+// AFTER HEADER OPTIONS
+
+// all categories & all tags
+
+.list-controls .combo-box .combo-box-header {
+    color: var(--primary);
+    border: 1px solid var(--primary-medium);
+    border-radius: 6px;
+}
+
+// scroll bar
+
+.select-kit .select-kit-collection::-webkit-scrollbar-thumb {
+    background: #c6c6c6;
+}
+
+// NAV PILLS
+
+// latest, new, top etc
+
+.nav-pills>li a.active {
+    color: #000106;
+    background-color: #0076ff;
+    border-radius: 6px;
+}
+
+.nav-pills>li>a:hover {
+    color: #fff;
+    background-color: #000632;
+    border-radius: 6px;
+}
+
+// Featured link in /latest
+
+a.topic-featured-link {
+    color: #c6c6c6;
+}
+
+// HAMBURGER MENU
+
+// new topics display next to category menu
+
+.menu-panel li.category-link .badge-notification {
+    color: #c6c6c6;
+}
+
+// PROFILE
+
+// Icons in profile
+
+div.menu-links-header .fa, div.menu-links-header button {
+    color: #c6c6c6;
+}
+
+// USER SUMMARY
+
+// secondary info panel
+
+.user-main .about .secondary dt {
+    color: #c6c6c6;
+}
+
+// STATS
+
+// most liked
+
+.user-info .user-detail .name a, .user-info .user-detail .username a {
+    color: #c6c6c6;
+}
+
+// NOTIFICATIONS
+
+// icon colour 
+
+.user-stream .notification .fa, .user-stream .notification .icon {
+    color: #c6c6c6;
+}
+
+// TOPICS
+
+// op username
+
+.names span a {
+    color: #c6c6c6;
+}
+
+// user title
+
+.names .new_user a, .names .user-title, .names .user-title a {
+    color: #c6c6c6;
+}
+
+.names .fa {
+    color: #c6c6c6;
+}
+
+// edit icon on post
+
+.post-info.edits .widget-button .d-button-label {
+    color: #c6c6c6;
+}
+
+.post-info.edits .widget-button .d-icon {
+    color: #c6c6c6;
+}
+
+// reply button
+
+nav.post-controls .actions button.create {
+    color: #fff;
+}
+
+nav.post-controls .actions button.create .d-icon {
+    color: #fff;
+}
+
+// reply to userxyz in post
+
+.topic-body .reply-to-tab {
+    color: #c6c6c6;
+}
+
+// embedded post
+
+.embedded-posts .arrow {
+    color: #fff;
+}
+
+// Links at bottom of topic
+
+.post-links-container ul li a[href] {
+    color: #fff;
+}
+
+// view hidden reply (gap)
+
+.gap {
+    color: #c6c6c6;
+}
+
+// topic timestamp
+
+.topic-meta-data .post-info a {
+    color: #c6c6c6;
+}
+
+// topic timeline/scrollbar
+
+.timeline-container .topic-timeline .now-date {
+    color: #c6c6c6;
+}
+
+.timeline-container .topic-timeline .timeline-ago {
+    color: #c6c6c6;
+}
+
+.timeline-container .topic-timeline .start-date {
+    color: #c6c6c6;
+}
+
+// ONEBOX
+
+// onebox header
+
+aside.onebox header a[href] {
+    color: #c6c6c6;
+}
+
+// estimated read time
+
+.onebox.allowlistedgeneric .label1, .onebox.allowlistedgeneric .label2, .onebox.whitelistedgeneric .label1, .onebox.whitelistedgeneric .label2 {
+    color: #c6c6c6;
+}
+
+// custom timeline text
+
+.timeline-date-wrapper .start-date {
+  &:before {
+    content: "Return to top"; // Change the text here
+  }
+
+  .d-label {
+    display: none; // hide the topic OP date
+  }
+}
+
+// POST ACTIONS
+
+// number of likes
+
+nav.post-controls .actions a, nav.post-controls .actions button {
+    color: #c6c6c6;
+}
+
+// TOPIC MAP
+
+.topic-map h4 {
+    color: #c6c6c6;
+}
+
+// links in topic map
+
+.topic-map span.domain {
+    color: #fff;
+}
+
+// QUOTES
+
+// quote button
+
+.quote-button .btn, .quote-button .btn:hover, .quote-button .d-icon, .quote-button .btn:hover .d-icon {
+    color: #fff;
+    background-color: #777;
+}
+
+// usermane in posted quote
+
+aside.quote .title {
+    color: #c6c6c6;
+}
+
+// icons in quotes
+
+.quote-controls, .quote-controls .d-icon {
+    color: #fff;
+}
+
+// highlited text in quote
+
+span.highlighted {
+    background-color: #1877f2;
+}
+
+// BADGES
+
+// badge group header
+
+.badge-groups {
+    color: #c6c6c6;
+}
+
+// users who have recieved badge - date granted
+
+.user-info.medium.badge-info .granted-on {
+    color: #c6c6c6;
+}
+
+// use badge as title
+
+.show-badge-details .grant-info-item {
+    color: #c6c6c6;
+}
+
+// GROUPS
+
+// full group name
+
+.group-info .group-info-full-name {
+    color: #c6c6c6;
+}
+
+// user titles in group member list
+
+.user-info .user-detail .title {
+    color: #c6c6c6;
+}
+
+// /U PAGE
+
+.select-kit.dropdown-select-box.period-chooser .period-chooser-header h2.selected-name .top-date-string {
+    color: #fff;
+}
+
+// date dropdown in admin dashboard
+
+.select-kit.dropdown-select-box.period-chooser .period-chooser-row .top-date-string {
+    color: #c6c6c6;
+}
+
+// PMs
+
+// messages +xyz user
+
+.topic-list .posters>a.posters-more-count {
+    color: #c6c6c6;
+}
+
+// @MENTIONS
+
+a.mention {
+    color: #fff;
+    background: var(--primary-low);
+    border-radius: 8px;
+}
+
+// group mention
+
+a.mention-group.notify, .small-action-desc a.mention-group {
+    color: #fff;
+    background: var(--primary-low);
+    border-radius: 8px;
+}
+
+// CATEGORIES
+
+.list-cell, .table-heading, .category-list td, .category-list th {
+    color: #fff;
+}
+
+// topic date
+
+.category-list .featured-topic a.last-posted-at, .category-list .featured-topic a.last-posted-at:visited {
+    color: #c6c6c6;
+}
+
+// new topics within a category
+
+.category-list .topics .badge-notification, .category-list .category .badge-notification {
+    color: #c6c6c6;
+}
+
+// cat latest
+
+.latest-topic-list .table-heading, .top-topic-list .table-heading {
+    color: #c6c6c6;
+}
+
+// latest activity in topic
+
+.latest-topic-list-item .topic-last-activity a {
+    color: #c6c6c6;
+}
+
+// REVIEW QUEUE
+
+// reviewable type
+
+.reviewable-item .reviewable-meta-data {
+    color: #c6c6c6;
+}
+
+// date reviewed
+
+.reviewable-item .reviewable-meta-data .created-at a {
+    color: #c6c6c6;
+}
+
+// ADMIN SETTINGS BLUE
+
+.nav-stacked a.active {
+    color: #000000;
+    background-color: #1877f2;
+    border-radius: 6px;
+}
+
+// EXTRAS
+
+// lines with links staff colour
+
+.moderator .regular>.cooked a, .user-stream .item.moderator-action .title a {
+    color: #fff !important;
+    border-bottom: 2px dotted #fff !important;
+}
+
+
+// wiki background
+
+.wiki .topic-body {
+    background-color: #004220;
+}
+
+// solution
+
+.post-controls .extra-buttons .accepted .d-icon, .post-controls .extra-buttons .accepted .d-button-label {
+    color: (--success);
+}
+
+.fa.accepted {
+    color: (--success);
+}
+
+// staff username colour
+
+.names span.staff a {
+   color: #FFFFFF;
+}
+
+// round buttons
+
+.btn {
+    border-radius: 6px;
+}
+
+button {
+    border-radius: 6px;
+}
