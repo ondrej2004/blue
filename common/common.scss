@@ -411,6 +411,10 @@ a.mention-group.notify, .small-action-desc a.mention-group {
     color: (--success);
 }
 
+.post-controls .extra-buttons .accepted-text .d-icon, .post-controls .extra-buttons .accepted-text .accepted-label {
+    color: #00ff63;
+}
+
 // staff username colour
 
 .names span.staff a {
