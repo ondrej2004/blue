@@ -150,6 +150,21 @@ div.menu-links-header .fa, div.menu-links-header button {
     color: #c6c6c6;
 }
 
+// fast edit
+
+.quote-button .btn:hover, .quote-button .quote-button .btn:hover .d-icon {
+    color: #fff;
+    background-color: #01b7fd;
+}
+
+.quote-button .buttons {
+    background-color: #333;
+}
+
+.quote-button .fast-edit-container {
+    background-color: #333;
+}
+
 // reply button
 
 nav.post-controls .actions button.create {
