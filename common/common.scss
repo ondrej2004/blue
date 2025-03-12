@@ -1,119 +1,88 @@
 // HEADER
 
-// header icons
+// icons
+
+.header-sidebar-toggle {
+    color: #BFBFBF;
+}
 
 .d-header-icons .d-icon {
-    color: #ffffff;
+    color: #BFBFBF;
 }
 
-// topic title colour
-
-.extra-info-wrapper .topic-link {
-    color: #fff;
+.d-icon-house {
+    color: #BFBFBF;
 }
 
-// BODY
 
-// ICONS
+// MAIN BODY
 
-// pin
+// icons
 
-.topic-list-icons .d-icon-thumbtack, .latest-topic-list .d-icon-thumbtack, .top-topic-list .d-icon-thumbtack, .topic-list .d-icon-thumbtack {
-    color: #c6c6c6;
+.d-icon-thumbtack {
+    color: #BFBFBF !important;
 }
 
-.topic-list-icons .d-icon-thumbtack.unpinned, .latest-topic-list .d-icon-thumbtack.unpinned, .top-topic-list .d-icon-thumbtack.unpinned, .topic-list .d-icon-thumbtack.unpinned {
-    color: #c6c6c6;
-}
-
-// bookmark
-
-.topic-list-icons .d-icon-bookmark, .latest-topic-list .d-icon-bookmark, .top-topic-list .d-icon-bookmark, .topic-list .d-icon-bookmark {
-    color: #c6c6c6;
+.topic-list-icons .d-icon-bookmark, .topic-list .d-icon-bookmark, .latest-topic-list .d-icon-bookmark, .top-topic-list .d-icon-bookmark {
+    color: #BFBFBF !important;
 }
 
 // bulk select
 
-.topic-list th button .d-icon {
-    color: #c6c6c6;
+.topic-list button.bulk-select {
+    color: #BFBFBF;
 }
 
-// AFTER HEADER OPTIONS
-
-// all categories & all tags
+// category & tag select box
 
 .list-controls .combo-box .combo-box-header {
-    color: var(--primary);
-    border: 1px solid var(--primary-medium);
+    color: #BFBFBF;
+    border: 1px solid #BFBFBF;
     border-radius: 6px;
 }
 
 // scroll bar
 
 .select-kit .select-kit-collection::-webkit-scrollbar-thumb {
-    background: #c6c6c6;
+    background: #BFBFBF;
 }
 
 // NAV PILLS
 
-// latest, new, top etc
-
-.nav-pills>li a.active {
-    color: #000106;
-    background-color: #0076ff;
+.nav-pills>li>a, .nav-pills>li button {
     border-radius: 6px;
+    color: #BFBFBF;
+    &:hover {background-color: var(--tertiary-low);
+    }
 }
 
-.nav-pills>li>a:hover {
-    color: #fff;
-    background-color: #000632;
+.nav-pills>li a.active::after, .nav-pills>li button.active::after {
+    background: #00b7ff !important;
+}
+
+// Sidebar
+
+// active link
+.sidebar-section-link-wrapper .sidebar-section-link--active, .sidebar-section-link-wrapper .sidebar-section-link.active {
+    background: var(--tertiary-low);
     border-radius: 6px;
+    color: #C6C6C6;
+    font-weight: bold;
 }
 
-// Featured link in /latest
-
-a.topic-featured-link {
-    color: #c6c6c6;
-}
-
-// HAMBURGER MENU
-
-// new topics display next to category menu
-
-.menu-panel b.topics-count {
-    color: #c6c6c6;
+// not active link
+.sidebar-section-link-wrapper .sidebar-section-link {
+    border-radius: 6px;
 }
 
 // PROFILE
 
-// Icons in profile
+// user summary
 
-div.menu-links-header .fa, div.menu-links-header button {
-    color: #c6c6c6;
-}
-
-// USER SUMMARY
-
-// secondary info panel
+// user stats. eg. seen, joined, email, TL
 
 .user-main .about .secondary dt {
-    color: #c6c6c6;
-}
-
-// STATS
-
-// most liked
-
-.user-info .user-detail .name a, .user-info .user-detail .username a {
-    color: #c6c6c6;
-}
-
-// NOTIFICATIONS
-
-// icon colour 
-
-.user-stream .notification .fa, .user-stream .notification .icon {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // TOPICS
@@ -121,36 +90,40 @@ div.menu-links-header .fa, div.menu-links-header button {
 // op username
 
 .names span a {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // user title
 
 .names .new_user a, .names .user-title, .names .user-title a {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // user title staff colour
 
 .moderator .clearfix>.topic-meta-data>.names span.user-title, .moderator .nav-pills>.topic-meta-data>.names span.user-title, .moderator .container>.topic-meta-data>.names span.user-title, .moderator .wrap>.topic-meta-data>.names span.user-title {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 .names .fa {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // edit icon on post
 
+// post revision number colour
+
 .post-info.edits .widget-button .d-button-label {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
+
+// post revision icon colour
 
 .post-info.edits .widget-button .d-icon {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
-// fast edit
+// fast edit toolbar
 
 .quote-button .buttons {
     background-color: #333;
@@ -160,79 +133,73 @@ div.menu-links-header .fa, div.menu-links-header button {
     background-color: #333;
 }
 
-// reply button
+// post reply button text colour
 
 nav.post-controls .actions button.create {
-    color: #fff;
+    color: #FFF;
 }
+
+// post reply button icon colour
 
 nav.post-controls .actions button.create .d-icon {
-    color: #fff;
+    color: #FFF;
 }
 
-// reply to userxyz in post
+// post share modal date colour
 
-.topic-body .reply-to-tab {
-    color: #c6c6c6;
+.d-modal.share-topic-modal .d-modal__subtitle-text {
+    color: #BFBFBF;
 }
 
 // embedded post
 
 .embedded-posts .arrow {
-    color: #fff;
+    color: #FFF;
 }
 
-// Links at bottom of topic
+// links at bottom of topic
 
 .post-links-container ul li a[href] {
-    color: #fff;
+    color: #BFBFBF;
 }
 
 // view hidden reply (gap)
 
 .gap {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // topic timestamp
 
 .topic-meta-data .post-info a {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // topic timeline/scrollbar
 
 .timeline-container .topic-timeline .now-date {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 .timeline-container .topic-timeline .timeline-ago {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 .timeline-container .topic-timeline .start-date {
-    color: #c6c6c6;
-}
-
-// ONEBOX
-
-// onebox header
-
-aside.onebox header a[href] {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // estimated read time
 
 .onebox.allowlistedgeneric .label1, .onebox.allowlistedgeneric .label2, .onebox.whitelistedgeneric .label1, .onebox.whitelistedgeneric .label2 {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // custom timeline text
 
 .timeline-date-wrapper .start-date {
   &:before {
-    content: "Return to top"; // Change the text here
+    content: "Return to top:"; // Change the text here
   }
 
   .d-label {
@@ -240,51 +207,43 @@ aside.onebox header a[href] {
   }
 }
 
+// ONEBOX
+
+// onebox header
+
+aside.onebox header a[href] {
+    color: #BFBFBF;
+}
+
 // POST ACTIONS
 
 // number of likes
 
 nav.post-controls .actions a, nav.post-controls .actions button {
-    color: #c6c6c6;
-}
-
-// TOPIC MAP
-
-.topic-map h4 {
-    color: #c6c6c6;
-}
-
-// links in topic map
-
-.topic-map span.domain {
-    color: #fff;
+    color: #BFBFBF;
 }
 
 // QUOTES
 
+// quote controls
+
+.quote-controls, .quote-controls .d-icon {
+    color: #BFBFBF;
+}
+
 // quote button
 
 .quote-button .btn, .quote-button .btn:hover, .quote-button .d-icon, .quote-button .btn:hover .d-icon {
-    color: #fff;
-    background-color: #777;
+    color: #BFBFBF;
+    background-color: #bfbfbf00;
+    &:hover{ background-color: #000;
+    }
 }
 
 // usermane in posted quote
 
 aside.quote .title {
-    color: #c6c6c6;
-}
-
-// icons in quotes
-
-.quote-controls, .quote-controls .d-icon {
-    color: #fff;
-}
-
-// highlited text in quote
-
-span.highlighted {
-    background-color: #1877f2;
+    color: #BFBFBF;
 }
 
 // BADGES
@@ -292,129 +251,101 @@ span.highlighted {
 // badge group header
 
 .badge-groups {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // users who have recieved badge - date granted
 
 .user-info.medium.badge-info .granted-on {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // use badge as title
 
 .show-badge-details .grant-info-item {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // GROUPS
 
-// full group name
-
-.group-info .group-info-full-name {
-    color: #c6c6c6;
+.groups-boxes .group-box {
+    &:hover { border: 1px solid #BFBFBF !important;
+    }
 }
 
-// user titles in group member list
-
-.user-info .user-detail .title {
-    color: #c6c6c6;
-}
-
-// /U PAGE
+// /U PAGE date dropdown
 
 .select-kit.dropdown-select-box.period-chooser .period-chooser-header h2.selected-name .top-date-string {
-    color: #fff;
+    color: #BFBFBF;
 }
 
-// date dropdown in admin dashboard
-
-.select-kit.dropdown-select-box.period-chooser .period-chooser-row .top-date-string {
-    color: #c6c6c6;
-}
-
-// PMs
-
-// messages +xyz user
-
-.topic-list .posters>a.posters-more-count {
-    color: #c6c6c6;
-}
-
-// @MENTIONS
-
-a.mention {
-    color: #fff;
-    background: var(--primary-low);
-    border-radius: 8px;
-}
-
-// group mention
-
-a.mention-group.notify, .small-action-desc a.mention-group {
-    color: #fff;
-    background: var(--primary-low);
-    border-radius: 8px;
-}
-
-// CATEGORIES
+// /CATEGORIES PAGE
 
 .list-cell, .table-heading, .category-list td, .category-list th {
-    color: #fff;
+    color: #BFBFBF;
+}
+
+.badge-posts[href] {
+    color: #BFBFBF;
 }
 
 // topic date
 
 .category-list .featured-topic a.last-posted-at, .category-list .featured-topic a.last-posted-at:visited {
-    color: #c6c6c6;
-}
-
-// new topics within a category
-
-.category-list .topics .badge-notification, .category-list .category .badge-notification {
-    color: #c6c6c6;
-}
-
-// cat latest
-
-.latest-topic-list .table-heading, .top-topic-list .table-heading {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // latest activity in topic
 
 .latest-topic-list-item .topic-last-activity a {
-    color: #c6c6c6;
+    color: #BFBFBF;
+}
+
+// new topics within a category
+
+.category-list .topics .badge-notification, .category-list .category .badge-notification {
+    color: #00B7FF;
+    font-weight: bold;
+}
+
+// category 'latest'
+
+.latest-topic-list .table-heading, .top-topic-list .table-heading {
+    color: #BFBFBF;
 }
 
 // REVIEW QUEUE
 
-// reviewable type
+// sidebar pending amount
 
-.reviewable-item .reviewable-meta-data {
-    color: #c6c6c6;
+.sidebar-section-link-wrapper .sidebar-section-link .sidebar-section-link-content-badge {
+    color: var(--danger);
+    font-weight: bold;
 }
 
 // date reviewed
 
 .reviewable-item .reviewable-meta-data .created-at a {
-    color: #c6c6c6;
+    color: #BFBFBF;
 }
 
 // ADMIN SETTINGS BLUE
 
 .nav-stacked a.active {
-    color: #000000;
-    background-color: #1877f2 !important ;
+    background-color: #069;
     border-radius: 6px;
 }
 
 // EXTRAS
 
-// lines with links staff colour
+// staff colour
+
+.moderator .regular>.cooked {
+    background-color: #069 !important;
+}
 
 .moderator .regular>.cooked a, .user-stream .item.moderator-action .title a {
-    color: #fff !important;
+    color: #FFF !important;
     border-bottom: 2px dotted #fff !important;
 }
 
@@ -422,27 +353,17 @@ a.mention-group.notify, .small-action-desc a.mention-group {
 // wiki background
 
 .wiki .topic-body {
-    background-color: #004220;
+    background-color: #002c15;
 }
 
 // solution
 
 .post-controls .extra-buttons .accepted .d-icon, .post-controls .extra-buttons .accepted .d-button-label {
-    color: (--success);
+    color: var(--success);
 }
 
 .fa.accepted {
-    color: (--success);
-}
-
-.post-controls .extra-buttons .accepted-text .d-icon, .post-controls .extra-buttons .accepted-text .accepted-label {
-    color: #00ff63;
-}
-
-// staff username colour
-
-.names span.staff a {
-   color: #FFFFFF;
+    color: var(--success);
 }
 
 // round buttons
@@ -453,4 +374,14 @@ a.mention-group.notify, .small-action-desc a.mention-group {
 
 button {
     border-radius: 6px;
+}
+
+// DROPDOWN BACKGROUND HIGHLIGHT COLOUR
+
+.select-kit .select-kit-row.is-highlighted {
+    background-color: #383838 !important;
+}
+
+.select-kit .select-kit-row.is-selected {
+    background: #004059;
 }
