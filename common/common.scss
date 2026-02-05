@@ -25,6 +25,12 @@ ORIGINAL
     color: #BFBFBF !important;
 }
 
+.topic-status.--pinned.pin-toggle-button .d-icon,
+.topic-status.--unpinned.pin-toggle-button .d-icon {
+  color: #A6A6A6 !important;
+  fill: #A6A6A6 !important;
+}
+
 .topic-list-icons .d-icon-bookmark, .topic-list .d-icon-bookmark, .latest-topic-list .d-icon-bookmark, .top-topic-list .d-icon-bookmark {
     color: #BFBFBF !important;
 }
