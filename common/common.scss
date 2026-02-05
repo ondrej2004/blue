@@ -21,6 +21,13 @@ ORIGINAL
 
 // icons
 
+@media (min-width: 40rem) {
+  .topic-list .d-icon-thumbtack {
+    color: #a6a6a6 !important;
+    fill: #a6a6a6 !important;
+  }
+}
+
 .d-icon-thumbtack {
     color: #BFBFBF !important;
 }
