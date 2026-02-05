@@ -2,12 +2,6 @@
 
 // icons
 
-// all icons
-
-.svg-icon, .svg-icon-title {
-    fill: #A6A6A6;
-}
-
 .header-sidebar-toggle {
     color: #BFBFBF;
 }
@@ -25,6 +19,12 @@
 
 // icons
 
+// all icons 
+
+.svg-icon, .svg-icon-title {
+    fill: #A6A6A6;
+}
+
 .topic-statuses .topic-status {
     color: #A6A6A6 !important;
 }
@@ -41,6 +41,10 @@
     .topic-list .d-icon-thumbtack {
         color: #A6A6A6 !important;
     }
+}
+
+.fa .d-icon .d-icon-thumbtack .svg-icon .fa-width-auto .svg-string {
+    color: #A6A6A6
 }
 
 .topic-list-icons .d-icon-bookmark, .topic-list .d-icon-bookmark, .latest-topic-list .d-icon-bookmark, .top-topic-list .d-icon-bookmark {
